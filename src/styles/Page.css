@@ -1,0 +1,12 @@
+.page {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px auto 10px auto;
+}

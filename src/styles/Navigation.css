@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+}
+
+.nav li {
+  display: flex;
+  margin: 0 10px;
+  list-style: none;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.nav li a {
+  color: #888888;
+  border-bottom: transparent 4px solid;
+  transition: all 0.2s;
+}
+
+.nav li a:hover {
+  color: #222222;
+}
+
+.nav li a.active {
+  color: #444444;
+  border-bottom: #888888 4px solid;
+}

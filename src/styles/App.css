@@ -1,0 +1,63 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+.app header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 60px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 10px 38px -33px rgba(0, 0, 0, 1);
+}
+
+.app main {
+  max-width: 1170px;
+  width: 100%;
+  margin-top: 100px;
+  padding: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+}
+
+.app footer {
+  height: 100px;
+  box-shadow: 0px -10px 38px -33px rgba(0, 0, 0, 1);
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #999999;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
+.success-message {
+  margin-top: 30px;
+  background-color: rgba(50, 168, 82, 0.1);
+  border: 1px solid rgba(50, 168, 82, 0.7);
+  color: rgba(50, 168, 82, 1);
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.error-message {
+  margin-top: 30px;
+  background-color: rgba(168, 50, 70, 0.1);
+  border: 1px solid rgba(168, 50, 70, 0.7);
+  color: rgba(168, 50, 70, 1);
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+}

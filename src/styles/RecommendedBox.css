@@ -1,0 +1,23 @@
+.user-follow {
+  font-size: 12px;
+  color: rgba(232, 118, 12, 0.6);
+  padding: 0px 8px;
+  margin-left: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgba(232, 118, 12, 0.5);
+  position: absolute;
+  right: 0;
+
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.1s;
+  text-align: center;
+  height: 35px;
+  line-height: 32px;
+}
+
+.user-follow:hover {
+  cursor: pointer;
+  background-color: rgb(232, 118, 12);
+  color: white;
+}

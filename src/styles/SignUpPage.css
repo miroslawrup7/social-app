@@ -1,0 +1,21 @@
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 240px);
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+h2 {
+  margin: 40px 0 20px 0;
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 300px;
+  align-items: center;
+}

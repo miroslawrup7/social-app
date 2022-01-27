@@ -1,0 +1,64 @@
+.input-form {
+  background-color: white;
+  height: 50px;
+  margin: 10px 20px 5px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 18px -23px rgba(0, 0, 0, 1);
+  padding: 0 20px;
+  width: 95%;
+  border: 2px solid transparent;
+}
+
+.input-form::placeholder {
+  opacity: 50%;
+}
+
+.error {
+  border-bottom: 2px solid rgba(255, 0, 0, 0.5);
+}
+
+.error-icon {
+  margin-bottom: -1px;
+}
+
+.error-box {
+  height: 14px;
+  font-size: 0.7em;
+  color: rgba(255, 0, 0, 0.8);
+  letter-spacing: 1px;
+  width: 95%;
+  padding: 0 20px;
+}
+
+.pass-input-wrapper input::placeholder {
+  opacity: 50%;
+}
+
+.pass-input-wrapper {
+  position: relative;
+}
+
+.pass-input-wrapper input {
+  position: absolute;
+  left: 0;
+  padding: 0 20px;
+  height: 50px;
+  border-radius: 10px;
+  width: 95%;
+  border: 2px solid transparent;
+}
+
+.pass-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 0;
+  margin-right: 20px;
+  opacity: 50%;
+  font-size: 1.2em;
+}
+
+.pass-icon:hover {
+  cursor: pointer;
+}

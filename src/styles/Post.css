@@ -1,0 +1,162 @@
+.post-box {
+  background-color: white;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 38px -33px rgba(0, 0, 0, 1);
+}
+
+.wrapper {
+  margin: 10px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.post-avatar {
+  display: flex;
+  margin-right: 10px;
+  position: relative;
+}
+
+.user-avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-user {
+  font-weight: bold;
+}
+
+.post-date {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.post-content {
+  margin: 10px 5px;
+  font-size: 0.9em;
+}
+
+hr {
+  border-top: 1px solid #dedfe2;
+}
+
+.post-like-module {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.like-button {
+  font-size: 12px;
+  color: rgb(50, 98, 168, 0.6);
+  padding: 0px 8px 0px 8px;
+  margin-left: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgba(50, 98, 168, 0.5);
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.1s;
+  /* width: 130px; */
+  text-align: center;
+  height: 35px;
+}
+
+.like-button:hover {
+  cursor: pointer;
+  background-color: rgb(50, 98, 168);
+  color: white;
+}
+
+.unlike-button {
+  font-size: 12px;
+  color: rgb(235, 73, 103, 0.6);
+  padding: 0px 8px 0px 8px;
+  margin-left: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgba(235, 73, 103, 0.5);
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.1s;
+  /* width: 130px; */
+  text-align: center;
+  height: 35px;
+}
+
+.unlike-button:hover {
+  cursor: pointer;
+  background-color: rgb(235, 73, 103);
+  color: white;
+}
+
+.delete-button {
+  font-size: 25px;
+  color: black;
+  opacity: 0.4;
+
+  transition: all 0.1s;
+
+  text-align: center;
+  height: 35px;
+  position: absolute;
+  right: 5px;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.icon-like {
+  vertical-align: -1px;
+}
+
+.icon-delete {
+  vertical-align: -5px;
+  font-size: 20px;
+}
+
+.icon-follow {
+  vertical-align: -4px;
+  font-size: 16px;
+}
+
+.icon-heart {
+  vertical-align: text-top;
+  color: red;
+}
+
+.icon-heart-off {
+  vertical-align: text-top;
+  color: red;
+}
+
+.post-likes-counter:hover .icon-heart-off {
+  color: red;
+}
+
+.post-likes-counter:hover {
+  cursor: pointer;
+}
+
+.post-likes-counter-logout {
+  position: absolute;
+  right: 10px;
+}
+
+.likes-quantity {
+  vertical-align: super;
+  font-size: 14px;
+}
